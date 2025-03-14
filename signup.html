@@ -38,17 +38,23 @@
     </table>
     
     <h2>迎新活動報名表</h2>
-    <form action="nukimtrip.html" method="POST">
-
-        姓名:<input type="text"><br>
-        電子郵件：<input type="email"><br>
-        性別：<br>
-        男:<input type="radio">女:<input type="radio"><br>
-        其他需求：<br>
-        <textarea cols="40" rows="15"></textarea><br>
-
+    <form action="info.php" method="POST">
+        <label for="uName">姓名:</label>
+        <input type="text" id="uName" name="uName"><br>
+        
+        <label for="uEmail">電子郵件：</label>
+        <input type="email" id="uEmail" name="uEmail"><br>
+        
+        <label>性別：</label><br>
+        <label for="male">男:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">女:</label>
+        <input type="radio" id="female" name="gender" value="female"><br>
+        
+        <label for="other">其他需求：</label><br>
+        <textarea id="other" name="other" cols="40" rows="15"></textarea><br>
+        
         <button type="submit">提交報名</button>
-
     </form>
     <h1>返回主頁 </h1>
     <a href="nukimtrip.html">主頁按扭</a>
