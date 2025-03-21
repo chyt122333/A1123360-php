@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="skyblue" content="#000000">
+        <title>報名表</title>
+    </head>
+<body>
+    <img src="https://acc.nuk.edu.tw/var/file/14/1014/randimg/mobileadv_976_613281_58204.jpg">
+    
+    <table border>
+        <tr>
+            <TH>活動流程(環遊世界)</TH>
+        </tr>
+        <tr>
+            <td>
+                <p>時間日期</p>
+            </td>
+            <td>
+                <p>1月10日 ~ 6月17日</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>活動地點</p>
+            </td>
+            <td>
+                <p>地球</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>收費</p>
+            </td>
+            <td>
+                <p>$9999999</p>
+            </td>
+        </tr>
+    </table>
+    
+    <h2>迎新活動報名表</h2>
+    <form action="info.php" method="POST">
+        <label for="uName">姓名:</label>
+        <input type="text" id="uName" name="uName"><br>
+        
+        <label for="uEmail">電子郵件：</label>
+        <input type="email" id="uEmail" name="uEmail"><br>
+        
+        <label>性別：</label><br>
+        <label for="male">男:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">女:</label>
+        <input type="radio" id="female" name="gender" value="female"><br>
+        
+        <label for="other">其他需求：</label><br>
+        <textarea id="other" name="other" cols="40" rows="15"></textarea><br>
+        
+        <button type="submit">提交報名</button>
+    </form>
+    <h1>返回主頁 </h1>
+    <a href="nukimtrip.html">主頁按扭</a>
+</body>
+</html>
